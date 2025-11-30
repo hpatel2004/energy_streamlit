@@ -6,7 +6,7 @@ import streamlit as st
 # =========================================
 # CONFIG
 # =========================================
-DATA_FILE = "simultaneous_heating_cooling/data.xlsm"  
+DATA_FILE = "data.xlsm"  
 CHW_SHEET = "CHW hourly"
 MTHW_SHEET = "MTHW hourly"
 
