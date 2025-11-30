@@ -3,10 +3,13 @@ import matplotlib.pyplot as plt
 import re
 import streamlit as st
 
+import os
+
 # =========================================
 # CONFIG
 # =========================================
-DATA_FILE = "data.xlsm"  
+BASE_DIR = os.path.dirname(__file__)
+DATA_FILE = os.path.join(BASE_DIR, "data.xlsm")
 CHW_SHEET = "CHW hourly"
 MTHW_SHEET = "MTHW hourly"
 
